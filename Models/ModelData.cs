@@ -5,7 +5,7 @@ namespace thefirst.Models
 public class ModelData // Сериалыj
 {
 
-    public Guid Id { get; set; } = Guid.Empty;
+    public Guid Id { get; set; } = Guid.Empty; //
     public int serial_id { get; set; }
     public string title { get; set; }
     public int year { get; set; }
