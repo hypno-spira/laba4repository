@@ -10,7 +10,7 @@ namespace thefirst.Controllers
     {
         // GET api/values
         [HttpGet]
-        public ActionResult<string> Get() //com
+        public ActionResult<string> Get() //
         {
             var versionInfo = new Version
             {
