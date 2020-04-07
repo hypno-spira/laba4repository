@@ -1,0 +1,16 @@
+C:\Users\solne\thefirst\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\solne\thefirst\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\solne\thefirst\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Users\solne\thefirst\bin\Debug\netcoreapp2.2\thefirst.deps.json
+C:\Users\solne\thefirst\bin\Debug\netcoreapp2.2\thefirst.runtimeconfig.json
+C:\Users\solne\thefirst\bin\Debug\netcoreapp2.2\thefirst.runtimeconfig.dev.json
+C:\Users\solne\thefirst\bin\Debug\netcoreapp2.2\thefirst.dll
+C:\Users\solne\thefirst\bin\Debug\netcoreapp2.2\thefirst.pdb
+C:\Users\solne\thefirst\obj\Debug\netcoreapp2.2\thefirst.csprojAssemblyReference.cache
+C:\Users\solne\thefirst\obj\Debug\netcoreapp2.2\thefirst.RazorAssemblyInfo.cache
+C:\Users\solne\thefirst\obj\Debug\netcoreapp2.2\thefirst.RazorAssemblyInfo.cs
+C:\Users\solne\thefirst\obj\Debug\netcoreapp2.2\thefirst.AssemblyInfoInputs.cache
+C:\Users\solne\thefirst\obj\Debug\netcoreapp2.2\thefirst.AssemblyInfo.cs
+C:\Users\solne\thefirst\obj\Debug\netcoreapp2.2\thefirst.RazorTargetAssemblyInfo.cache
+C:\Users\solne\thefirst\obj\Debug\netcoreapp2.2\thefirst.dll
+C:\Users\solne\thefirst\obj\Debug\netcoreapp2.2\thefirst.pdb
