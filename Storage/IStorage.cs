@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace thefirst.Storage
 {
-    public interface IStorage<T> where T : class
+    public interface IStorage<T> where T : class //
     {
         List<T> All { get; }
         T this[Guid id] { get; set; }
