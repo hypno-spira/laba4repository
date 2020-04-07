@@ -4,7 +4,7 @@ using System.Net;
 using System.Net.Http;
 using Microsoft.AspNetCore.Mvc;
 using thefirst.Models;
-using thefirst.Storage;
+using thefirst.Storage; //
 
 namespace thefirst.Controllers
 {
@@ -14,7 +14,7 @@ namespace thefirst.Controllers
     {
         
         
-        private static IStorage<ModelData> _memCache = new MemCache(); 
+        private static IStorage<ModelData> _memCache = new MemCache(); //
 
         [HttpGet]
         public ActionResult<IEnumerable<ModelData>> Get()

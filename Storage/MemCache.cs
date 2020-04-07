@@ -5,7 +5,7 @@ using thefirst.Models;
 
 namespace thefirst.Storage
 {
-    public class MemCache : IStorage<ModelData>
+    public class MemCache : IStorage<ModelData> //
     {
         private object _sync = new object();
         private List<ModelData> _memCache = new List<ModelData>();
@@ -15,14 +15,14 @@ namespace thefirst.Storage
             {
                 lock (_sync)
                 {
-                    if (!Has(id)) throw new IncorrectLabDataException($"No LabData with id {id}");
+                    if (!Has(id)) throw new IncorrectModelDataException($"No ModelData with id {id}");
 
                     return _memCache.Single(x => x.Id == id);
                 }
             }
             set
             {
-                if (id == Guid.Empty) throw new IncorrectLabDataException("Cannot request LabData with an empty id");
+                if (id == Guid.Empty) throw new IncorrectModelDataException("Cannot request ModelData with an empty id");
 
                 lock (_sync)
                 {
@@ -41,7 +41,7 @@ namespace thefirst.Storage
 
         public void Add(ModelData value)
         {
-            if (value.Id != Guid.Empty) throw new IncorrectLabDataException($"Cannot add value with predefined id {value.Id}");
+            if (value.Id != Guid.Empty) throw new IncorrectModelDataException($"Cannot add value with predefined id {value.Id}");
 
             value.Id = Guid.NewGuid();
             this[value.Id] = value;
