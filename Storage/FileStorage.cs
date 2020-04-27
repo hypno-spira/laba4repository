@@ -36,9 +36,9 @@ namespace thefirst.Storage
 
                     if (deserialized != null)
                     {
-                        foreach (var labData in deserialized)
+                        foreach (var ModelData in deserialized)
                         {
-                            base[labData.Id] = labData;
+                            base[ModelData.Id] = ModelData;
                         }
                     }
                 }
