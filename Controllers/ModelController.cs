@@ -14,7 +14,12 @@ namespace thefirst.Controllers
     {
         
         
-        private static IStorage<ModelData> _memCache = new MemCache(); //
+        private IStorage<ModelData> _memCache;
+
+        public ModelController(IStorage<ModelData> memCache)
+        {
+            _memCache = memCache;
+        }
 
         [HttpGet]
         public ActionResult<IEnumerable<ModelData>> Get()

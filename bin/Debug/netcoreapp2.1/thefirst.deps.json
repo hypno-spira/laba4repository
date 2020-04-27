@@ -22,7 +22,7 @@
   },
   "targets": {
     ".NETCoreApp,Version=v2.1": {
-      "thefirst/0.0.1-rc.1": {
+      "thefirst/0.0.3-rc.1": {
         "dependencies": {
           "Microsoft.AspNetCore.App": "2.1.1",
           "Microsoft.AspNetCore.Razor.Design": "2.1.2",
@@ -3160,7 +3160,7 @@
     }
   },
   "libraries": {
-    "thefirst/0.0.1-rc.1": {
+    "thefirst/0.0.3-rc.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
