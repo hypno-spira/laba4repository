@@ -14,3 +14,4 @@ C:\Users\solne\thefirst\bin\Debug\netcoreapp2.1\thefirst.pdb
 C:\Users\solne\thefirst\obj\Debug\netcoreapp2.1\thefirst.RazorTargetAssemblyInfo.cache
 C:\Users\solne\thefirst\obj\Debug\netcoreapp2.1\thefirst.dll
 C:\Users\solne\thefirst\obj\Debug\netcoreapp2.1\thefirst.pdb
+C:\Users\solne\thefirst\obj\Debug\netcoreapp2.1\GitVersionInformation_thefirst_w32tmbli.g0y.g.cs
