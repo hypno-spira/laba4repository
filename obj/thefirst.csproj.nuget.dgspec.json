@@ -5,7 +5,7 @@
   },
   "projects": {
     "C:\\Users\\solne\\thefirst\\thefirst.csproj": {
-      "version": "0.0.3-rc.1",
+      "version": "0.0.4-rc.1",
       "restore": {
         "projectUniqueName": "C:\\Users\\solne\\thefirst\\thefirst.csproj",
         "projectName": "MyApp",
@@ -41,6 +41,10 @@
       "frameworks": {
         "netcoreapp2.1": {
           "dependencies": {
+            "GitVersion": {
+              "target": "Package",
+              "version": "(, )"
+            },
             "Microsoft.AspNetCore.App": {
               "suppressParent": "All",
               "target": "Package",
