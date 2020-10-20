@@ -22,11 +22,12 @@
   },
   "targets": {
     ".NETCoreApp,Version=v2.1": {
-      "thefirst/0.0.3-rc.1": {
+      "thefirst/0.1.0-featureKolosovaBukhtoyarovaGitVersion.1+10": {
         "dependencies": {
           "Microsoft.AspNetCore.App": "2.1.1",
           "Microsoft.AspNetCore.Razor.Design": "2.1.2",
-          "Microsoft.NETCore.App": "2.1.0"
+          "Microsoft.NETCore.App": "2.1.0",
+          "GitVersionTask": "5.0.1"
         },
         "runtime": {
           "thefirst.dll": {}
@@ -35,6 +36,7 @@
           "thefirst.dll": {}
         }
       },
+      "GitVersionTask/5.0.1": {},
       "Microsoft.AspNetCore.Razor.Design/2.1.2": {},
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
         "dependencies": {
@@ -3160,10 +3162,17 @@
     }
   },
   "libraries": {
-    "thefirst/0.0.3-rc.1": {
+    "thefirst/0.1.0-featureKolosovaBukhtoyarovaGitVersion.1+10": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "GitVersionTask/5.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-i1nn6L9fTRhv2GOuJB7BqIhdUe0Y9KK3UEblY17LxOQHfHNIsNztSSdsyGzDf15n5mueTWUYCgc0uLXBTcSP3w==",
+      "path": "gitversiontask/5.0.1",
+      "hashPath": "gitversiontask.5.0.1.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Razor.Design/2.1.2": {
       "type": "package",

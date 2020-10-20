@@ -5,7 +5,7 @@
   },
   "projects": {
     "C:\\Users\\solne\\thefirst\\thefirst.csproj": {
-      "version": "0.0.3-rc.1",
+      "version": "1.0.0",
       "restore": {
         "projectUniqueName": "C:\\Users\\solne\\thefirst\\thefirst.csproj",
         "projectName": "MyApp",
@@ -57,6 +57,12 @@
               "target": "Package",
               "version": "[2.1.0, )",
               "autoReferenced": true
+            },
+            "gitversiontask": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.1, )"
             }
           },
           "imports": [
