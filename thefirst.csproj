@@ -4,7 +4,7 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
     <Authors>Lena_Alena</Authors>
     <Company>alenalena.com</Company>
-    <Product>Lab 4</Product>
+    <Product>Lab 6</Product>
     <PackageId>MyApp</PackageId>
   </PropertyGroup>
 
@@ -13,12 +13,15 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="gitversiontask" Version="5.0.1">
+    <PackageReference Include="gitversiontask" Version="5.5.0">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+    <PackageReference Include="serilog" Version="2.10.0" />
+    <PackageReference Include="serilog.sinks.console" Version="3.1.1" />
+    <PackageReference Include="serilog.sinks.file" Version="4.1.0" />
   </ItemGroup>
 
 </Project>
