@@ -4,7 +4,8 @@ using System.Net;
 using System.Net.Http;
 using Microsoft.AspNetCore.Mvc;
 using thefirst.Models;
-using thefirst.Storage; //
+using thefirst.Storage; 
+using Serilog;
 
 namespace thefirst.Controllers
 {
@@ -12,8 +13,7 @@ namespace thefirst.Controllers
     [ApiController]
     public class ModelController : ControllerBase
     {
-        
-        
+                
         private IStorage<ModelData> _memCache;
 
         public ModelController(IStorage<ModelData> memCache)
@@ -24,6 +24,7 @@ namespace thefirst.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<ModelData>> Get()
         {
+            
             return Ok(_memCache.All);
         }
 
@@ -31,7 +32,7 @@ namespace thefirst.Controllers
         public ActionResult<ModelData> Get(Guid id)
         {
             if (!_memCache.Has(id)) return NotFound("No such");
-
+            
             return Ok(_memCache[id]);
         }
 
@@ -43,6 +44,13 @@ namespace thefirst.Controllers
             if (!validationResult.IsValid) return BadRequest(validationResult.Errors);
 
             _memCache.Add(value);
+
+            Log.Information("Adding information about serials");
+            Log.Warning("Some warning");
+            Log.Error("Here comes an error");
+
+
+            Log.Information($"This information about serials have been added: {value}");
 
             return Ok($"{value.ToString()} has been added");
         }

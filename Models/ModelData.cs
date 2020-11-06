@@ -2,7 +2,7 @@ using System;
 using System.Linq;
 namespace thefirst.Models
 {
-public class ModelData // Сериалыj
+public class ModelData // Сериалы
 {
 
     public Guid Id { get; set; } = Guid.Empty; //

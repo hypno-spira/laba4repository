@@ -13,8 +13,11 @@ using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("alenalena.com")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
-[assembly: System.Reflection.AssemblyProductAttribute("Lab 4")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.1+1.Branch.master.Sha.4ee4e701105361354e38dac6739d6fbef2c8b273")]
+[assembly: System.Reflection.AssemblyProductAttribute("Lab 6")]
 [assembly: System.Reflection.AssemblyTitleAttribute("thefirst")]
+[assembly: System.Reflection.AssemblyVersionAttribute("1.0.1.0")]
 
 // Создано классом WriteCodeFragment MSBuild.
 

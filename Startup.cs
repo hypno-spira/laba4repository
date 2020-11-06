@@ -12,6 +12,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using thefirst.Models;
 using thefirst.Storage;
+using Serilog;
 
 namespace thefirst
 {
@@ -28,6 +29,8 @@ namespace thefirst
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+
+             ConfigureLogger();
 
             switch (Configuration["Storage:Type"].ToStorageEnum())
             {
@@ -57,6 +60,16 @@ namespace thefirst
 
             app.UseHttpsRedirection();
             app.UseMvc();
+        }
+        
+        private void ConfigureLogger()
+        {
+            var log = new LoggerConfiguration()
+                .WriteTo.Console()
+                .WriteTo.File("logs\\thefirst.log", rollingInterval: RollingInterval.Day)
+                .CreateLogger();
+
+            Log.Logger = log;
         }
     }
 }
