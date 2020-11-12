@@ -4,7 +4,7 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
     <Authors>Lena_Alena</Authors>
     <Company>alenalena.com</Company>
-    <Product>Lab 6</Product>
+    <Product>Lab 7</Product>
     <PackageId>MyApp</PackageId>
   </PropertyGroup>
 
@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="gitversiontask" Version="5.5.0">
+    <PackageReference Include="gitversiontask" Version="5.1.2">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
