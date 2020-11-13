@@ -27,7 +27,6 @@
           "Microsoft.AspNetCore.App": "2.1.1",
           "Microsoft.AspNetCore.Razor.Design": "2.1.2",
           "Microsoft.NETCore.App": "2.1.0",
-          "GitVersionTask": "5.5.0",
           "Serilog": "2.10.0",
           "Serilog.Sinks.Console": "3.1.1",
           "Serilog.Sinks.File": "4.1.0"
@@ -39,7 +38,6 @@
           "thefirst.dll": {}
         }
       },
-      "GitVersionTask/5.5.0": {},
       "Microsoft.AspNetCore.Razor.Design/2.1.2": {},
       "Serilog/2.10.0": {
         "runtime": {
@@ -3221,13 +3219,6 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
-    },
-    "GitVersionTask/5.5.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-6FC1fa4iRZn1nc5cU964g1FbDCdumWis1lHra7c0J9+VHrokNYbfnsxGBix+1SsVpqDzAQ21ymZ7vgcGM921Gw==",
-      "path": "gitversiontask/5.5.0",
-      "hashPath": "gitversiontask.5.5.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Razor.Design/2.1.2": {
       "type": "package",

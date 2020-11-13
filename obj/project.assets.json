@@ -2,17 +2,6 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.1": {
-      "GitVersionTask/5.5.0": {
-        "type": "package",
-        "build": {
-          "build/GitVersionTask.props": {},
-          "build/GitVersionTask.targets": {}
-        },
-        "buildMultiTargeting": {
-          "buildMultiTargeting/GitVersionTask.props": {},
-          "buildMultiTargeting/GitVersionTask.targets": {}
-        }
-      },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
         "type": "package",
         "dependencies": {
@@ -4398,69 +4387,6 @@
     }
   },
   "libraries": {
-    "GitVersionTask/5.5.0": {
-      "sha512": "6FC1fa4iRZn1nc5cU964g1FbDCdumWis1lHra7c0J9+VHrokNYbfnsxGBix+1SsVpqDzAQ21ymZ7vgcGM921Gw==",
-      "type": "package",
-      "path": "gitversiontask/5.5.0",
-      "hasTools": true,
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "build/GitVersionTask.props",
-        "build/GitVersionTask.targets",
-        "buildMultiTargeting/GitVersionTask.props",
-        "buildMultiTargeting/GitVersionTask.targets",
-        "gitversiontask.5.5.0.nupkg.sha512",
-        "gitversiontask.nuspec",
-        "package_icon.png",
-        "tools/net48/GitVersionCore.dll",
-        "tools/net48/GitVersionCore.pdb",
-        "tools/net48/GitVersionCore.xml",
-        "tools/net48/GitVersionTask.MsBuild.dll",
-        "tools/net48/GitVersionTask.MsBuild.pdb",
-        "tools/net48/GitVersionTask.dll",
-        "tools/net48/GitVersionTask.pdb",
-        "tools/net48/LibGit2Sharp.dll",
-        "tools/net48/LibGit2Sharp.dll.config",
-        "tools/net48/Microsoft.Bcl.AsyncInterfaces.dll",
-        "tools/net48/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
-        "tools/net48/Microsoft.Extensions.DependencyInjection.dll",
-        "tools/net48/Microsoft.Extensions.Options.dll",
-        "tools/net48/Microsoft.Extensions.Primitives.dll",
-        "tools/net48/YamlDotNet.dll",
-        "tools/net48/lib/linux-x64/libgit2-ef5a385.so",
-        "tools/net48/lib/osx/libgit2-ef5a385.dylib",
-        "tools/net48/lib/win32/x64/git2-ef5a385.dll",
-        "tools/net48/lib/win32/x86/git2-ef5a385.dll",
-        "tools/netstandard2.0/GitVersionCore.dll",
-        "tools/netstandard2.0/GitVersionCore.pdb",
-        "tools/netstandard2.0/GitVersionCore.xml",
-        "tools/netstandard2.0/GitVersionTask.MsBuild.dll",
-        "tools/netstandard2.0/GitVersionTask.MsBuild.pdb",
-        "tools/netstandard2.0/GitVersionTask.deps.json",
-        "tools/netstandard2.0/GitVersionTask.dll",
-        "tools/netstandard2.0/GitVersionTask.pdb",
-        "tools/netstandard2.0/LibGit2Sharp.dll",
-        "tools/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.dll",
-        "tools/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
-        "tools/netstandard2.0/Microsoft.Extensions.DependencyInjection.dll",
-        "tools/netstandard2.0/Microsoft.Extensions.Options.dll",
-        "tools/netstandard2.0/Microsoft.Extensions.Primitives.dll",
-        "tools/netstandard2.0/YamlDotNet.dll",
-        "tools/netstandard2.0/runtimes/alpine-x64/native/libgit2-ef5a385.so",
-        "tools/netstandard2.0/runtimes/alpine.3.9-x64/native/libgit2-ef5a385.so",
-        "tools/netstandard2.0/runtimes/debian-arm64/native/libgit2-ef5a385.so",
-        "tools/netstandard2.0/runtimes/debian.9-x64/native/libgit2-ef5a385.so",
-        "tools/netstandard2.0/runtimes/fedora-x64/native/libgit2-ef5a385.so",
-        "tools/netstandard2.0/runtimes/linux-x64/native/libgit2-ef5a385.so",
-        "tools/netstandard2.0/runtimes/osx/native/libgit2-ef5a385.dylib",
-        "tools/netstandard2.0/runtimes/rhel-x64/native/libgit2-ef5a385.so",
-        "tools/netstandard2.0/runtimes/ubuntu.16.04-arm64/native/libgit2-ef5a385.so",
-        "tools/netstandard2.0/runtimes/ubuntu.18.04-x64/native/libgit2-ef5a385.so",
-        "tools/netstandard2.0/runtimes/win-x64/native/git2-ef5a385.dll",
-        "tools/netstandard2.0/runtimes/win-x86/native/git2-ef5a385.dll"
-      ]
-    },
     "Microsoft.AspNet.WebApi.Client/5.2.6": {
       "sha512": "owAlEIUZXWSnkK8Z1c+zR47A0X6ykF4XjbPok4lQKNuciUfHLGPd6QnI+rt/8KlQ17PmF+I4S3f+m+Qe4IvViw==",
       "type": "package",
@@ -12117,7 +12043,6 @@
       "Microsoft.AspNetCore.App >= 2.1.1",
       "Microsoft.AspNetCore.Razor.Design >= 2.1.2",
       "Microsoft.NETCore.App >= 2.1.0",
-      "gitversiontask >= 5.5.0",
       "serilog >= 2.10.0",
       "serilog.sinks.console >= 3.1.1",
       "serilog.sinks.file >= 4.1.0"
@@ -12180,12 +12105,6 @@
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true
-          },
-          "gitversiontask": {
-            "include": "Runtime, Build, Native, ContentFiles, Analyzers",
-            "suppressParent": "All",
-            "target": "Package",
-            "version": "[5.5.0, )"
           },
           "serilog": {
             "target": "Package",
