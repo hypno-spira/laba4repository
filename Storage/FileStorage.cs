@@ -48,6 +48,8 @@ namespace thefirst.Storage
                 }
             }
         }
+
+         new public string StorageType => $"{nameof(FileStorage)}";
         
         private void Flush()
         {
